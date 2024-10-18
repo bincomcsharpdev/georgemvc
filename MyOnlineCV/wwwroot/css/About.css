@@ -1,0 +1,77 @@
+﻿/* Container for the cards */
+.card-container {
+    display: flex;
+    justify-content: center; /* Centers the cards horizontally */
+    align-items: stretch; /* Ensures all cards have equal height */
+    gap: 20px; /* Space between the cards */
+    flex-wrap: wrap; /* Allows wrapping for smaller screens */
+    padding: 30px 0; /* Adjusts padding for vertical spacing */
+}
+
+/* Card Styling */
+.card {
+    width: 300px;
+    display: flex;
+    flex-direction: column; /* Align content vertically */
+    justify-content: space-between; /* Spread content evenly */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+    transition: transform 0.2s ease-in-out, background-color 0.3s, color 0.3s;
+    background-color: white; /* Default background */
+    color: #333; /* Default text color */
+}
+
+/* Set minimum height for consistency, but keep it manageable */
+.card {
+    min-height: 200px;
+    max-height: 400px; /* Prevent cards from becoming too tall */
+}
+
+    /* Hover Effect */
+    .card:hover {
+        transform: scale(1.05);
+        background-color: dimgray;
+        color: white;
+    }
+
+    /* Ensure headings and paragraphs change color on hover */
+    .card h3,
+    .card p {
+        transition: color 0.3s;
+    }
+
+    .card:hover h3,
+    .card:hover p {
+        color: white;
+    }
+
+/* Card body styling */
+.card-body {
+    padding: 20px;
+    text-align: center;
+    flex-grow: 1; /* Ensures the body takes up available space */
+}
+
+/* Headings inside cards */
+.card h3 {
+    margin-bottom: 10px;
+    font-size: 1.5rem;
+    color: inherit;
+}
+
+/* Paragraph inside cards */
+.card p {
+    font-size: 1rem;
+    line-height: 1.5;
+    color: inherit;
+}
+
+/* Section title alignment */
+.section-title {
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 30px;
+    font-size: 2rem;
+    color: #333;
+}

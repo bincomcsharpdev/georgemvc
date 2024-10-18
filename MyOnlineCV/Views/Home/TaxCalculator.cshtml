@@ -1,0 +1,29 @@
+﻿@{
+    ViewData["Title"] = "Tax Calculator";
+}
+
+<h2>@ViewData["Title"]</h2>
+@if (ViewBag.Error != null)
+{
+    <div class="alert alert-danger">@ViewBag.Error</div>
+}
+
+<link rel="stylesheet" href="~/css/TaxCalculator.css" asp-append-version="true" />
+<script src="~/js/TaxCalculator.js" asp-append-version="true"></script>
+
+<!-- Form to input income -->
+<form method="post" id="taxForm">
+    <div class="form-group">
+        <label for="income">Enter your income in naira:</label>
+        <input type="text" id="income" name="income" class="form-control" />
+        <div id="error-message" class="text-danger" style="display: none; margin-top: 5px;">
+            <!-- Error message will appear here -->
+        </div>
+    </div>
+    <button type="submit" class="btn btn-primary">Calculate Tax</button>
+</form>
+
+@if (ViewBag.Tax != null)
+{
+    <h3>Your tax is: #@string.Format("{0:n}", ViewBag.Tax)</h3> <!-- Formats with commas -->
+}

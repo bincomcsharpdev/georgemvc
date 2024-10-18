@@ -1,0 +1,70 @@
+﻿/* General Form Styling */
+form {
+    max-width: 400px;
+    margin: 50px auto; /* Centers the form */
+    padding: 30px;
+    background-color: #f9f9f9;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+/* Form Group Styling */
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: #333;
+}
+
+input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+    transition: border-color 0.3s;
+}
+
+    /* Input Focus Effect */
+    input[type="number"]:focus {
+        border-color: #007bff;
+        outline: none;
+    }
+
+/* Button Styling */
+.btn-primary {
+    width: 100%;
+    padding: 12px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.1s;
+}
+
+    /* Hover Effect */
+    .btn-primary:hover {
+        background-color: #3399ff;
+        transform: scale(1.05); /* Slightly enlarges the button */
+    }
+
+    /* Click (Active) Effect */
+    .btn-primary:active {
+        background-color: #0056b3;
+        transform: scale(0.98); /* Slightly shrinks the button */
+    }
+
+/* Tax Result Styling */
+h3 {
+    text-align: center;
+    margin-top: 20px;
+    color: #333;
+    font-weight: bold;
+}

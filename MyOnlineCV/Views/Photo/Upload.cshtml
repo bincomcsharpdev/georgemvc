@@ -1,0 +1,38 @@
+﻿@model IEnumerable<MyOnlineCV.Models.Photo>
+
+@{
+    ViewData["Title"] = "Upload Photos";
+}
+
+<h2>Upload Photos</h2>
+
+<!-- Upload Form -->
+<form method="post" enctype="multipart/form-data" asp-action="Upload">
+    @Html.AntiForgeryToken()
+    <input type="file" name="file" />
+    <button type="submit">Upload</button>
+</form>
+
+<hr />
+
+<h2>Photo Gallery</h2>
+
+@if (Model != null && Model.Any())
+{
+    <div>
+        @foreach (var photo in Model)
+        {
+            <div style="margin-bottom: 20px;">
+                <img src="@photo.ImageUrl" width="200" alt="@photo.FileName" />
+                <form method="post" asp-action="Delete" asp-route-id="@photo.Id" style="display: inline;">
+                    @Html.AntiForgeryToken()
+                    <button type="submit">Delete</button>
+                </form>
+            </div>
+        }
+    </div>
+}
+else
+{
+    <p>No photos uploaded yet.</p>
+}

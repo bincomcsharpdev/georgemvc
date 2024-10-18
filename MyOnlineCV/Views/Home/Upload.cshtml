@@ -1,0 +1,24 @@
+﻿@{
+    ViewData["Title"] = "Upload Photos";
+}
+
+<h2>Gallery</h2>
+<div>
+    @if (Model?.Any() == true)
+    {
+        foreach (var photo in Model)
+        {
+            <div>
+                <img src="@photo.ImageUrl" width="200" />
+                <form method="post" asp-action="Delete" asp-route-id="@photo.Id">
+                    <button type="submit">Delete</button>
+                </form>
+            </div>
+        }
+    }
+    else
+    {
+        <p>No photos available.</p>
+    }
+</div>
+<a asp-controller="Photo" asp-action="Upload">Upload Photo</a>
