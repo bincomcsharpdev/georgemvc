@@ -2,10 +2,8 @@
 {
     public class Photo
     {
-        public int Id { get; set; }
-        public string? UserId { get; set; }  // Optional: Track which user uploaded the photo
+        public int Id { get; set; } // Add this line
         public string? FileName { get; set; }
         public string? ImageUrl { get; set; }
-        public DateTime UploadedAt { get; set; } = DateTime.Now;
     }
 }

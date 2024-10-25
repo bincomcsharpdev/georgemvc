@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "3o+DQZcCT+GDeQCaV4geU4OxPJ/xNLR7K8paPhoBA3U=",
+  "Hash": "sRSh5JvwHWc+OiGp/jdancuhQvZNHu+ZZXdpFXxn6Us=",
   "Source": "MyOnlineCV",
   "BasePath": "_content/MyOnlineCV",
   "Mode": "Default",
@@ -1366,12 +1366,12 @@
       "OriginalItemSpec": "wwwroot\\uploads\\Bincom2.png"
     },
     {
-      "Identity": "C:\\Users\\Moses\\Desktop\\Coding\\Projects\\C#\\Mvc\\MyOnlineCV\\wwwroot\\uploads\\WIN_20240916_02_40_20_Pro.jpg",
+      "Identity": "C:\\Users\\Moses\\Desktop\\Coding\\Projects\\C#\\Mvc\\MyOnlineCV\\wwwroot\\uploads\\pexels-albert-nunez-18065-88630.jpg",
       "SourceId": "MyOnlineCV",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Moses\\Desktop\\Coding\\Projects\\C#\\Mvc\\MyOnlineCV\\wwwroot\\",
       "BasePath": "_content/MyOnlineCV",
-      "RelativePath": "uploads/WIN_20240916_02_40_20_Pro.jpg",
+      "RelativePath": "uploads/pexels-albert-nunez-18065-88630.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -1382,15 +1382,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\uploads\\WIN_20240916_02_40_20_Pro.jpg"
+      "OriginalItemSpec": "wwwroot\\uploads\\pexels-albert-nunez-18065-88630.jpg"
     },
     {
-      "Identity": "C:\\Users\\Moses\\Desktop\\Coding\\Projects\\C#\\Mvc\\MyOnlineCV\\wwwroot\\uploads\\WIN_20240916_02_41_32_Pro.jpg",
+      "Identity": "C:\\Users\\Moses\\Desktop\\Coding\\Projects\\C#\\Mvc\\MyOnlineCV\\wwwroot\\uploads\\pexels-cesarperez209-733745.jpg",
       "SourceId": "MyOnlineCV",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Moses\\Desktop\\Coding\\Projects\\C#\\Mvc\\MyOnlineCV\\wwwroot\\",
       "BasePath": "_content/MyOnlineCV",
-      "RelativePath": "uploads/WIN_20240916_02_41_32_Pro.jpg",
+      "RelativePath": "uploads/pexels-cesarperez209-733745.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -1401,15 +1401,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\uploads\\WIN_20240916_02_41_32_Pro.jpg"
+      "OriginalItemSpec": "wwwroot\\uploads\\pexels-cesarperez209-733745.jpg"
     },
     {
-      "Identity": "C:\\Users\\Moses\\Desktop\\Coding\\Projects\\C#\\Mvc\\MyOnlineCV\\wwwroot\\uploads\\WIN_20240916_02_41_38_Pro.jpg",
+      "Identity": "C:\\Users\\Moses\\Desktop\\Coding\\Projects\\C#\\Mvc\\MyOnlineCV\\wwwroot\\uploads\\pexels-mikebirdy-1035108.jpg",
       "SourceId": "MyOnlineCV",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Moses\\Desktop\\Coding\\Projects\\C#\\Mvc\\MyOnlineCV\\wwwroot\\",
       "BasePath": "_content/MyOnlineCV",
-      "RelativePath": "uploads/WIN_20240916_02_41_38_Pro.jpg",
+      "RelativePath": "uploads/pexels-mikebirdy-1035108.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -1420,7 +1420,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\uploads\\WIN_20240916_02_41_38_Pro.jpg"
+      "OriginalItemSpec": "wwwroot\\uploads\\pexels-mikebirdy-1035108.jpg"
     }
   ]
 }

@@ -1,80 +1,59 @@
-﻿using Microsoft.AspNetCore.Mvc;
-using Microsoft.EntityFrameworkCore;
-using MyOnlineCV.Data;
+﻿using Dropbox.Api;
+using Dropbox.Api.Files;
+using Microsoft.AspNetCore.Mvc;
 using MyOnlineCV.Models;
-using System.Security.Claims;
+using System.IO;
+using System.Linq;
+using System.Threading.Tasks;
 
 namespace MyOnlineCV.Controllers
 {
     public class PhotoController : Controller
     {
-        private readonly ApplicationDbContext _context;
-
-        public PhotoController(ApplicationDbContext context)
+        // Action to display the photo gallery
+        public IActionResult Index()
         {
-            _context = context;
+            return View(PhotoStore.Photos);
         }
 
-        // Display the Upload View with Existing Photos
-        public async Task<IActionResult> Upload()
-        {
-            var photos = await _context.Photos.ToListAsync();  // Load photos from DB
-            return View(photos ?? new List<Photo>());  // Pass photos to the view, ensuring it's not null
-        }
-
-        // Handle Photo Upload (POST)
+        // Action to handle photo uploads
         [HttpPost]
         public async Task<IActionResult> Upload(IFormFile file)
         {
             if (file != null && file.Length > 0)
             {
-                var photo = new Photo
-                {
-                    FileName = file.FileName,
-                    ImageUrl = "/uploads/" + file.FileName  // Example path
-                };
+                using var stream = file.OpenReadStream();
+                string dropboxPath = $"/{file.FileName}";
+                var imageUrl = await UploadToDropbox(stream, dropboxPath);
 
-                // Save the file to the server's root directory
-                var filePath = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot/uploads", file.FileName);
-                using (var stream = new FileStream(filePath, FileMode.Create))
-                {
-                    await file.CopyToAsync(stream);
-                }
-
-                _context.Add(photo);
-                await _context.SaveChangesAsync();
-
-                // Redirect back to the Upload view to display the updated list
-                return RedirectToAction(nameof(Upload));
+                // Store metadata in memory
+                PhotoStore.Photos.Add(new Photo { FileName = file.FileName, ImageUrl = imageUrl });
             }
 
-            return View();
+            // Redirect to Index to show the uploaded photos
+            return RedirectToAction("Index");
         }
 
-        // Handle Photo Deletion
+        // Action to handle photo deletions
         [HttpPost]
-        public async Task<IActionResult> Delete(int id)
+        public IActionResult Delete(string fileName)
         {
-            var photo = await _context.Photos.FindAsync(id);
+            var photo = PhotoStore.Photos.FirstOrDefault(p => p.FileName == fileName);
             if (photo != null)
             {
-                // Check if FileName is not null or empty
-                if (!string.IsNullOrEmpty(photo.FileName))
-                {
-                    // Optionally delete the file from the server
-                    var filePath = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot/uploads", photo.FileName);
-                    if (System.IO.File.Exists(filePath))
-                    {
-                        System.IO.File.Delete(filePath);
-                    }
-                }
-
-                _context.Photos.Remove(photo);
-                await _context.SaveChangesAsync();
+                PhotoStore.Photos.Remove(photo);
             }
 
-            // Redirect back to the Upload view after deletion
-            return RedirectToAction(nameof(Upload));
+            return RedirectToAction("Index");
+        }
+
+        // Method to upload the photo to Dropbox
+        private async Task<string> UploadToDropbox(Stream fileStream, string dropboxPath)
+        {
+            var dbx = new DropboxClient("sl.B_PJPgELpC4Ugbc7msXa0AtqmF8FUxvD2gC9ss8K-mwLbKGtm_d9wgaxqgzoySYCDToo8-lGalKOo4LnEWjloybUQ9TkPbrcuKR6rLLj3WpdU507CtsPNu_k__RDjiCGF23YYlKpUVzpihg"); // Replace with your actual access token
+            var uploadResponse = await dbx.Files.UploadAsync(dropboxPath, WriteMode.Overwrite.Instance, body: fileStream);
+            var sharedLink = await dbx.Sharing.CreateSharedLinkWithSettingsAsync(dropboxPath);
+            return sharedLink.Url;
         }
     }
 }

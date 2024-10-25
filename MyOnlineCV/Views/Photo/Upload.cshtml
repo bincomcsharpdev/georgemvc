@@ -9,22 +9,29 @@
 <!-- Upload Form -->
 <form method="post" enctype="multipart/form-data" asp-action="Upload">
     @Html.AntiForgeryToken()
-    <input type="file" name="file" />
-    <button type="submit">Upload</button>
+    <label>Select Photo(s):</label>
+    <input type="file" name="files" multiple /> <!-- Allow multiple uploads -->
+    <button type="submit" style="margin-top: 10px;">Upload</button>
 </form>
 
 <hr />
+
+<!-- Show Gallery Button -->
+<a asp-action="Index" style="text-decoration: none;">
+    <button style="margin-top: 10px;">Show Gallery</button>
+</a>
 
 <h2>Photo Gallery</h2>
 
 @if (Model != null && Model.Any())
 {
-    <div>
+    <div style="display: flex; flex-wrap: wrap; gap: 20px;">
         @foreach (var photo in Model)
         {
-            <div style="margin-bottom: 20px;">
-                <img src="@photo.ImageUrl" width="200" alt="@photo.FileName" />
-                <form method="post" asp-action="Delete" asp-route-id="@photo.Id" style="display: inline;">
+            <div style="border: 1px solid #ccc; padding: 10px; text-align: center;">
+                <img src="@photo.ImageUrl" width="200" alt="@photo.FileName" style="display: block; margin-bottom: 10px;" />
+                <p>@photo.FileName</p>
+                <form method="post" asp-action="Delete" asp-route-fileName="@photo.FileName" style="display: inline;">
                     @Html.AntiForgeryToken()
                     <button type="submit">Delete</button>
                 </form>

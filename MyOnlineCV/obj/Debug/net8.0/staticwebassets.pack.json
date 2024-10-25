@@ -277,20 +277,20 @@
       "PackagePath": "staticwebassets\\uploads\\Bincom2.png"
     },
     {
-      "Id": "C:\\Users\\Moses\\Desktop\\Coding\\Projects\\C#\\Mvc\\MyOnlineCV\\wwwroot\\uploads\\WIN_20240916_02_40_20_Pro.jpg",
-      "PackagePath": "staticwebassets\\uploads\\WIN_20240916_02_40_20_Pro.jpg"
-    },
-    {
-      "Id": "C:\\Users\\Moses\\Desktop\\Coding\\Projects\\C#\\Mvc\\MyOnlineCV\\wwwroot\\uploads\\WIN_20240916_02_41_32_Pro.jpg",
-      "PackagePath": "staticwebassets\\uploads\\WIN_20240916_02_41_32_Pro.jpg"
-    },
-    {
-      "Id": "C:\\Users\\Moses\\Desktop\\Coding\\Projects\\C#\\Mvc\\MyOnlineCV\\wwwroot\\uploads\\WIN_20240916_02_41_38_Pro.jpg",
-      "PackagePath": "staticwebassets\\uploads\\WIN_20240916_02_41_38_Pro.jpg"
-    },
-    {
       "Id": "C:\\Users\\Moses\\Desktop\\Coding\\Projects\\C#\\Mvc\\MyOnlineCV\\wwwroot\\uploads\\animal.png",
       "PackagePath": "staticwebassets\\uploads\\animal.png"
+    },
+    {
+      "Id": "C:\\Users\\Moses\\Desktop\\Coding\\Projects\\C#\\Mvc\\MyOnlineCV\\wwwroot\\uploads\\pexels-albert-nunez-18065-88630.jpg",
+      "PackagePath": "staticwebassets\\uploads\\pexels-albert-nunez-18065-88630.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Moses\\Desktop\\Coding\\Projects\\C#\\Mvc\\MyOnlineCV\\wwwroot\\uploads\\pexels-cesarperez209-733745.jpg",
+      "PackagePath": "staticwebassets\\uploads\\pexels-cesarperez209-733745.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Moses\\Desktop\\Coding\\Projects\\C#\\Mvc\\MyOnlineCV\\wwwroot\\uploads\\pexels-mikebirdy-1035108.jpg",
+      "PackagePath": "staticwebassets\\uploads\\pexels-mikebirdy-1035108.jpg"
     },
     {
       "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.MyOnlineCV.Microsoft.AspNetCore.StaticWebAssets.props",

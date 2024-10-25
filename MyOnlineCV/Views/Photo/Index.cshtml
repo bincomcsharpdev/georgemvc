@@ -1,6 +1,25 @@
-﻿@{
-    ViewData["Title"] = "Photo Index";
+﻿@model IEnumerable<MyOnlineCV.Models.Photo>
+
+<h2>Photo Gallery</h2>
+
+@if (Model != null && Model.Any())
+{
+    <div style="display: flex; flex-wrap: wrap; gap: 20px;">
+        @foreach (var photo in Model)
+        {
+            <div style="border: 1px solid #ccc; padding: 10px; text-align: center;">
+                <img src="@photo.ImageUrl" width="200" alt="@photo.FileName" style="display: block; margin-bottom: 10px;" />
+                <p>@photo.FileName</p>
+                <form method="post" asp-action="Delete" asp-route-fileName="@photo.FileName" style="display: inline;">
+                    @Html.AntiForgeryToken()
+                    <button type="submit">Delete</button>
+                </form>
+            </div>
+        }
+    </div>
+}
+else
+{
+    <p>No photos uploaded yet.</p>
 }
 
-<h2>Welcome to the Photo Gallery</h2>
-<p>Please visit the <a asp-action="Upload">Upload Page</a> to manage your photos.</p>

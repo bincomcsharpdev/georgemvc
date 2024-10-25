@@ -3,80 +3,44 @@
   "WorkspaceRootPath": "C:\\Users\\Moses\\Desktop\\Coding\\Projects\\C#\\Mvc\\MyOnlineCV\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{611EED8A-5A6F-4514-AC39-4C191E2D70AD}|MyOnlineCV.csproj|c:\\users\\moses\\desktop\\coding\\projects\\c#\\mvc\\myonlinecv\\views\\photo\\upload.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{611EED8A-5A6F-4514-AC39-4C191E2D70AD}|MyOnlineCV.csproj|solutionrelative:views\\photo\\upload.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{611EED8A-5A6F-4514-AC39-4C191E2D70AD}|MyOnlineCV.csproj|c:\\users\\moses\\desktop\\coding\\projects\\c#\\mvc\\myonlinecv\\controllers\\photocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{611EED8A-5A6F-4514-AC39-4C191E2D70AD}|MyOnlineCV.csproj|solutionrelative:controllers\\photocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{611EED8A-5A6F-4514-AC39-4C191E2D70AD}|MyOnlineCV.csproj|c:\\users\\moses\\desktop\\coding\\projects\\c#\\mvc\\myonlinecv\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{611EED8A-5A6F-4514-AC39-4C191E2D70AD}|MyOnlineCV.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{611EED8A-5A6F-4514-AC39-4C191E2D70AD}|MyOnlineCV.csproj|c:\\users\\moses\\desktop\\coding\\projects\\c#\\mvc\\myonlinecv\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{611EED8A-5A6F-4514-AC39-4C191E2D70AD}|MyOnlineCV.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{611EED8A-5A6F-4514-AC39-4C191E2D70AD}|MyOnlineCV.csproj|c:\\users\\moses\\desktop\\coding\\projects\\c#\\mvc\\myonlinecv\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{611EED8A-5A6F-4514-AC39-4C191E2D70AD}|MyOnlineCV.csproj|solutionrelative:data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Moses\\Desktop\\Coding\\Projects\\C#\\Mvc\\MyOnlineCV\\Migrations\\20241018104728_InitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Migrations\\20241018104728_InitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{611EED8A-5A6F-4514-AC39-4C191E2D70AD}|MyOnlineCV.csproj|c:\\users\\moses\\desktop\\coding\\projects\\c#\\mvc\\myonlinecv\\views\\photo\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{611EED8A-5A6F-4514-AC39-4C191E2D70AD}|MyOnlineCV.csproj|solutionrelative:views\\photo\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{611EED8A-5A6F-4514-AC39-4C191E2D70AD}|MyOnlineCV.csproj|c:\\users\\moses\\desktop\\coding\\projects\\c#\\mvc\\myonlinecv\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{611EED8A-5A6F-4514-AC39-4C191E2D70AD}|MyOnlineCV.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{611EED8A-5A6F-4514-AC39-4C191E2D70AD}|MyOnlineCV.csproj|c:\\users\\moses\\desktop\\coding\\projects\\c#\\mvc\\myonlinecv\\views\\home\\photo.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{611EED8A-5A6F-4514-AC39-4C191E2D70AD}|MyOnlineCV.csproj|solutionrelative:views\\home\\photo.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{611EED8A-5A6F-4514-AC39-4C191E2D70AD}|MyOnlineCV.csproj|c:\\users\\moses\\desktop\\coding\\projects\\c#\\mvc\\myonlinecv\\views\\home\\upload.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{611EED8A-5A6F-4514-AC39-4C191E2D70AD}|MyOnlineCV.csproj|solutionrelative:views\\home\\upload.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{611EED8A-5A6F-4514-AC39-4C191E2D70AD}|MyOnlineCV.csproj|c:\\users\\moses\\desktop\\coding\\projects\\c#\\mvc\\myonlinecv\\views\\home\\photo.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{611EED8A-5A6F-4514-AC39-4C191E2D70AD}|MyOnlineCV.csproj|solutionrelative:views\\home\\photo.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{611EED8A-5A6F-4514-AC39-4C191E2D70AD}|MyOnlineCV.csproj|c:\\users\\moses\\desktop\\coding\\projects\\c#\\mvc\\myonlinecv\\views\\photo\\upload.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{611EED8A-5A6F-4514-AC39-4C191E2D70AD}|MyOnlineCV.csproj|solutionrelative:views\\photo\\upload.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{611EED8A-5A6F-4514-AC39-4C191E2D70AD}|MyOnlineCV.csproj|c:\\users\\moses\\desktop\\coding\\projects\\c#\\mvc\\myonlinecv\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{611EED8A-5A6F-4514-AC39-4C191E2D70AD}|MyOnlineCV.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{611EED8A-5A6F-4514-AC39-4C191E2D70AD}|MyOnlineCV.csproj|c:\\users\\moses\\desktop\\coding\\projects\\c#\\mvc\\myonlinecv\\views\\photo\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{611EED8A-5A6F-4514-AC39-4C191E2D70AD}|MyOnlineCV.csproj|solutionrelative:views\\photo\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{611EED8A-5A6F-4514-AC39-4C191E2D70AD}|MyOnlineCV.csproj|c:\\users\\moses\\desktop\\coding\\projects\\c#\\mvc\\myonlinecv\\controllers\\photocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{611EED8A-5A6F-4514-AC39-4C191E2D70AD}|MyOnlineCV.csproj|solutionrelative:controllers\\photocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{611EED8A-5A6F-4514-AC39-4C191E2D70AD}|MyOnlineCV.csproj|c:\\users\\moses\\desktop\\coding\\projects\\c#\\mvc\\myonlinecv\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{611EED8A-5A6F-4514-AC39-4C191E2D70AD}|MyOnlineCV.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{611EED8A-5A6F-4514-AC39-4C191E2D70AD}|MyOnlineCV.csproj|c:\\users\\moses\\desktop\\coding\\projects\\c#\\mvc\\myonlinecv\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{611EED8A-5A6F-4514-AC39-4C191E2D70AD}|MyOnlineCV.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{611EED8A-5A6F-4514-AC39-4C191E2D70AD}|MyOnlineCV.csproj|c:\\users\\moses\\desktop\\coding\\projects\\c#\\mvc\\myonlinecv\\models\\photo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{611EED8A-5A6F-4514-AC39-4C191E2D70AD}|MyOnlineCV.csproj|solutionrelative:models\\photo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{611EED8A-5A6F-4514-AC39-4C191E2D70AD}|MyOnlineCV.csproj|c:\\users\\moses\\desktop\\coding\\projects\\c#\\mvc\\myonlinecv\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{611EED8A-5A6F-4514-AC39-4C191E2D70AD}|MyOnlineCV.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{611EED8A-5A6F-4514-AC39-4C191E2D70AD}|MyOnlineCV.csproj|c:\\users\\moses\\desktop\\coding\\projects\\c#\\mvc\\myonlinecv\\myonlinecv.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{611EED8A-5A6F-4514-AC39-4C191E2D70AD}|MyOnlineCV.csproj|solutionrelative:myonlinecv.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{611EED8A-5A6F-4514-AC39-4C191E2D70AD}|MyOnlineCV.csproj|c:\\users\\moses\\desktop\\coding\\projects\\c#\\mvc\\myonlinecv\\views\\home\\taxcalculator.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{611EED8A-5A6F-4514-AC39-4C191E2D70AD}|MyOnlineCV.csproj|solutionrelative:views\\home\\taxcalculator.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{611EED8A-5A6F-4514-AC39-4C191E2D70AD}|MyOnlineCV.csproj|c:\\users\\moses\\desktop\\coding\\projects\\c#\\mvc\\myonlinecv\\models\\photostore.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{611EED8A-5A6F-4514-AC39-4C191E2D70AD}|MyOnlineCV.csproj|solutionrelative:models\\photostore.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{611EED8A-5A6F-4514-AC39-4C191E2D70AD}|MyOnlineCV.csproj|c:\\users\\moses\\desktop\\coding\\projects\\c#\\mvc\\myonlinecv\\wwwroot\\js\\taxcalculator.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
       "RelativeMoniker": "D:0:0:{611EED8A-5A6F-4514-AC39-4C191E2D70AD}|MyOnlineCV.csproj|solutionrelative:wwwroot\\js\\taxcalculator.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{611EED8A-5A6F-4514-AC39-4C191E2D70AD}|MyOnlineCV.csproj|c:\\users\\moses\\desktop\\coding\\projects\\c#\\mvc\\myonlinecv\\wwwroot\\css\\index.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{611EED8A-5A6F-4514-AC39-4C191E2D70AD}|MyOnlineCV.csproj|solutionrelative:wwwroot\\css\\index.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{611EED8A-5A6F-4514-AC39-4C191E2D70AD}|MyOnlineCV.csproj|c:\\users\\moses\\desktop\\coding\\projects\\c#\\mvc\\myonlinecv\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{611EED8A-5A6F-4514-AC39-4C191E2D70AD}|MyOnlineCV.csproj|solutionrelative:wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{611EED8A-5A6F-4514-AC39-4C191E2D70AD}|MyOnlineCV.csproj|c:\\users\\moses\\desktop\\coding\\projects\\c#\\mvc\\myonlinecv\\wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{611EED8A-5A6F-4514-AC39-4C191E2D70AD}|MyOnlineCV.csproj|solutionrelative:wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     }
   ],
   "DocumentGroupContainers": [
@@ -86,64 +50,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 2,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "site.css",
-              "DocumentMoniker": "C:\\Users\\Moses\\Desktop\\Coding\\Projects\\C#\\Mvc\\MyOnlineCV\\wwwroot\\css\\site.css",
-              "RelativeDocumentMoniker": "wwwroot\\css\\site.css",
-              "ToolTip": "C:\\Users\\Moses\\Desktop\\Coding\\Projects\\C#\\Mvc\\MyOnlineCV\\wwwroot\\css\\site.css",
-              "RelativeToolTip": "wwwroot\\css\\site.css",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAfAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-10-11T16:17:45.123Z",
-              "IsPinned": true
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "site.js",
-              "DocumentMoniker": "C:\\Users\\Moses\\Desktop\\Coding\\Projects\\C#\\Mvc\\MyOnlineCV\\wwwroot\\js\\site.js",
-              "RelativeDocumentMoniker": "wwwroot\\js\\site.js",
-              "ToolTip": "C:\\Users\\Moses\\Desktop\\Coding\\Projects\\C#\\Mvc\\MyOnlineCV\\wwwroot\\js\\site.js",
-              "RelativeToolTip": "wwwroot\\js\\site.js",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2024-10-11T17:13:21.827Z",
-              "IsPinned": true
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\Moses\\Desktop\\Coding\\Projects\\C#\\Mvc\\MyOnlineCV\\Views\\Home\\Index.cshtml",
-              "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
-              "ToolTip": "C:\\Users\\Moses\\Desktop\\Coding\\Projects\\C#\\Mvc\\MyOnlineCV\\Views\\Home\\Index.cshtml",
-              "RelativeToolTip": "Views\\Home\\Index.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB4AAAACAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-11T16:31:11.235Z",
-              "IsPinned": true
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "Index.css",
-              "DocumentMoniker": "C:\\Users\\Moses\\Desktop\\Coding\\Projects\\C#\\Mvc\\MyOnlineCV\\wwwroot\\css\\Index.css",
-              "RelativeDocumentMoniker": "wwwroot\\css\\Index.css",
-              "ToolTip": "C:\\Users\\Moses\\Desktop\\Coding\\Projects\\C#\\Mvc\\MyOnlineCV\\wwwroot\\css\\Index.css",
-              "RelativeToolTip": "wwwroot\\css\\Index.css",
-              "ViewState": "AQIAAAwAAAAAAAAAAIBJwDIAAAAFAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-10-12T21:28:06.188Z",
-              "IsPinned": true
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{269a02dc-6af8-11d3-bdc4-00c04f688e50}"
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{74946827-37a0-11d2-a273-00c04f8ef4ff}"
@@ -155,190 +63,121 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Upload.cshtml",
-              "DocumentMoniker": "C:\\Users\\Moses\\Desktop\\Coding\\Projects\\C#\\Mvc\\MyOnlineCV\\Views\\Photo\\Upload.cshtml",
-              "RelativeDocumentMoniker": "Views\\Photo\\Upload.cshtml",
-              "ToolTip": "C:\\Users\\Moses\\Desktop\\Coding\\Projects\\C#\\Mvc\\MyOnlineCV\\Views\\Photo\\Upload.cshtml",
-              "RelativeToolTip": "Views\\Photo\\Upload.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAGAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-18T11:13:44.323Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\Moses\\Desktop\\Coding\\Projects\\C#\\Mvc\\MyOnlineCV\\Views\\Photo\\Index.cshtml",
-              "RelativeDocumentMoniker": "Views\\Photo\\Index.cshtml",
-              "ToolTip": "C:\\Users\\Moses\\Desktop\\Coding\\Projects\\C#\\Mvc\\MyOnlineCV\\Views\\Photo\\Index.cshtml",
-              "RelativeToolTip": "Views\\Photo\\Index.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAmwAUAAABVAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-18T10:53:47.058Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "20241018104728_InitialCreate.cs",
-              "DocumentMoniker": "C:\\Users\\Moses\\Desktop\\Coding\\Projects\\C#\\Mvc\\MyOnlineCV\\Migrations\\20241018104728_InitialCreate.cs",
-              "RelativeDocumentMoniker": "Migrations\\20241018104728_InitialCreate.cs",
-              "ToolTip": "C:\\Users\\Moses\\Desktop\\Coding\\Projects\\C#\\Mvc\\MyOnlineCV\\Migrations\\20241018104728_InitialCreate.cs",
-              "RelativeToolTip": "Migrations\\20241018104728_InitialCreate.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB4AAAAaAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-18T10:47:28.885Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "HomeController.cs",
-              "DocumentMoniker": "C:\\Users\\Moses\\Desktop\\Coding\\Projects\\C#\\Mvc\\MyOnlineCV\\Controllers\\HomeController.cs",
-              "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
-              "ToolTip": "C:\\Users\\Moses\\Desktop\\Coding\\Projects\\C#\\Mvc\\MyOnlineCV\\Controllers\\HomeController.cs",
-              "RelativeToolTip": "Controllers\\HomeController.cs",
-              "ViewState": "AQIAAAwAAAAAAAAAAAA5wB8AAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-17T16:47:43.897Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "PhotoController.cs",
-              "DocumentMoniker": "C:\\Users\\Moses\\Desktop\\Coding\\Projects\\C#\\Mvc\\MyOnlineCV\\Controllers\\PhotoController.cs",
-              "RelativeDocumentMoniker": "Controllers\\PhotoController.cs",
-              "ToolTip": "C:\\Users\\Moses\\Desktop\\Coding\\Projects\\C#\\Mvc\\MyOnlineCV\\Controllers\\PhotoController.cs",
-              "RelativeToolTip": "Controllers\\PhotoController.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAABYAAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-17T16:34:07.522Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Upload.cshtml",
-              "DocumentMoniker": "C:\\Users\\Moses\\Desktop\\Coding\\Projects\\C#\\Mvc\\MyOnlineCV\\Views\\Home\\Upload.cshtml",
-              "RelativeDocumentMoniker": "Views\\Home\\Upload.cshtml",
-              "ToolTip": "C:\\Users\\Moses\\Desktop\\Coding\\Projects\\C#\\Mvc\\MyOnlineCV\\Views\\Home\\Upload.cshtml",
-              "RelativeToolTip": "Views\\Home\\Upload.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-17T16:44:15.769Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\Users\\Moses\\Desktop\\Coding\\Projects\\C#\\Mvc\\MyOnlineCV\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\Users\\Moses\\Desktop\\Coding\\Projects\\C#\\Mvc\\MyOnlineCV\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AQIAABIAAAAAAAAAAAAAACsAAAA/AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-17T16:39:20.903Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
               "Title": "Photo.cshtml",
               "DocumentMoniker": "C:\\Users\\Moses\\Desktop\\Coding\\Projects\\C#\\Mvc\\MyOnlineCV\\Views\\Home\\Photo.cshtml",
               "RelativeDocumentMoniker": "Views\\Home\\Photo.cshtml",
               "ToolTip": "C:\\Users\\Moses\\Desktop\\Coding\\Projects\\C#\\Mvc\\MyOnlineCV\\Views\\Home\\Photo.cshtml",
               "RelativeToolTip": "Views\\Home\\Photo.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAHAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-17T16:40:14.526Z",
+              "WhenOpened": "2024-10-21T17:07:36.365Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
+              "Title": "Upload.cshtml",
+              "DocumentMoniker": "C:\\Users\\Moses\\Desktop\\Coding\\Projects\\C#\\Mvc\\MyOnlineCV\\Views\\Home\\Upload.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Upload.cshtml",
+              "ToolTip": "C:\\Users\\Moses\\Desktop\\Coding\\Projects\\C#\\Mvc\\MyOnlineCV\\Views\\Home\\Upload.cshtml",
+              "RelativeToolTip": "Views\\Home\\Upload.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAgwBQAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-21T16:02:23.235Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "PhotoStore.cs",
+              "DocumentMoniker": "C:\\Users\\Moses\\Desktop\\Coding\\Projects\\C#\\Mvc\\MyOnlineCV\\Models\\PhotoStore.cs",
+              "RelativeDocumentMoniker": "Models\\PhotoStore.cs",
+              "ToolTip": "C:\\Users\\Moses\\Desktop\\Coding\\Projects\\C#\\Mvc\\MyOnlineCV\\Models\\PhotoStore.cs",
+              "RelativeToolTip": "Models\\PhotoStore.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-21T15:36:32.407Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Moses\\Desktop\\Coding\\Projects\\C#\\Mvc\\MyOnlineCV\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "C:\\Users\\Moses\\Desktop\\Coding\\Projects\\C#\\Mvc\\MyOnlineCV\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAArAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-17T16:30:15.802Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-21T15:30:01.693Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 7,
               "Title": "Photo.cs",
               "DocumentMoniker": "C:\\Users\\Moses\\Desktop\\Coding\\Projects\\C#\\Mvc\\MyOnlineCV\\Models\\Photo.cs",
               "RelativeDocumentMoniker": "Models\\Photo.cs",
               "ToolTip": "C:\\Users\\Moses\\Desktop\\Coding\\Projects\\C#\\Mvc\\MyOnlineCV\\Models\\Photo.cs",
               "RelativeToolTip": "Models\\Photo.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-17T16:25:57.949Z"
+              "WhenOpened": "2024-10-21T15:27:06.953Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "ApplicationDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\Moses\\Desktop\\Coding\\Projects\\C#\\Mvc\\MyOnlineCV\\Data\\ApplicationDbContext.cs",
-              "RelativeDocumentMoniker": "Data\\ApplicationDbContext.cs",
-              "ToolTip": "C:\\Users\\Moses\\Desktop\\Coding\\Projects\\C#\\Mvc\\MyOnlineCV\\Data\\ApplicationDbContext.cs",
-              "RelativeToolTip": "Data\\ApplicationDbContext.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAFAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-17T16:22:45.745Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "MyOnlineCV.csproj",
-              "DocumentMoniker": "C:\\Users\\Moses\\Desktop\\Coding\\Projects\\C#\\Mvc\\MyOnlineCV\\MyOnlineCV.csproj",
-              "RelativeDocumentMoniker": "MyOnlineCV.csproj",
-              "ToolTip": "C:\\Users\\Moses\\Desktop\\Coding\\Projects\\C#\\Mvc\\MyOnlineCV\\MyOnlineCV.csproj",
-              "RelativeToolTip": "MyOnlineCV.csproj",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-10-17T16:22:26.584Z"
+              "DocumentIndex": 3,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Moses\\Desktop\\Coding\\Projects\\C#\\Mvc\\MyOnlineCV\\Views\\Photo\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Photo\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Moses\\Desktop\\Coding\\Projects\\C#\\Mvc\\MyOnlineCV\\Views\\Photo\\Index.cshtml",
+              "RelativeToolTip": "Views\\Photo\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-21T15:05:38.906Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "Upload.cshtml",
+              "DocumentMoniker": "C:\\Users\\Moses\\Desktop\\Coding\\Projects\\C#\\Mvc\\MyOnlineCV\\Views\\Photo\\Upload.cshtml",
+              "RelativeDocumentMoniker": "Views\\Photo\\Upload.cshtml",
+              "ToolTip": "C:\\Users\\Moses\\Desktop\\Coding\\Projects\\C#\\Mvc\\MyOnlineCV\\Views\\Photo\\Upload.cshtml",
+              "RelativeToolTip": "Views\\Photo\\Upload.cshtml",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAWwBUAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-21T15:05:27.596Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\Moses\\Desktop\\Coding\\Projects\\C#\\Mvc\\MyOnlineCV\\appsettings.json",
               "RelativeDocumentMoniker": "appsettings.json",
               "ToolTip": "C:\\Users\\Moses\\Desktop\\Coding\\Projects\\C#\\Mvc\\MyOnlineCV\\appsettings.json",
               "RelativeToolTip": "appsettings.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAACmAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-10-17T16:18:07.075Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-21T15:01:21.546Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "TaxCalculator.cshtml",
-              "DocumentMoniker": "C:\\Users\\Moses\\Desktop\\Coding\\Projects\\C#\\Mvc\\MyOnlineCV\\Views\\Home\\TaxCalculator.cshtml",
-              "RelativeDocumentMoniker": "Views\\Home\\TaxCalculator.cshtml",
-              "ToolTip": "C:\\Users\\Moses\\Desktop\\Coding\\Projects\\C#\\Mvc\\MyOnlineCV\\Views\\Home\\TaxCalculator.cshtml",
-              "RelativeToolTip": "Views\\Home\\TaxCalculator.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-14T19:45:16.576Z"
+              "DocumentIndex": 4,
+              "Title": "PhotoController.cs",
+              "DocumentMoniker": "C:\\Users\\Moses\\Desktop\\Coding\\Projects\\C#\\Mvc\\MyOnlineCV\\Controllers\\PhotoController.cs",
+              "RelativeDocumentMoniker": "Controllers\\PhotoController.cs",
+              "ToolTip": "C:\\Users\\Moses\\Desktop\\Coding\\Projects\\C#\\Mvc\\MyOnlineCV\\Controllers\\PhotoController.cs",
+              "RelativeToolTip": "Controllers\\PhotoController.cs",
+              "ViewState": "AQIAAB4AAAAAAAAAAAAmwCsAAAAwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-21T14:40:29.772Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 9,
               "Title": "TaxCalculator.js",
               "DocumentMoniker": "C:\\Users\\Moses\\Desktop\\Coding\\Projects\\C#\\Mvc\\MyOnlineCV\\wwwroot\\js\\TaxCalculator.js",
               "RelativeDocumentMoniker": "wwwroot\\js\\TaxCalculator.js",
               "ToolTip": "C:\\Users\\Moses\\Desktop\\Coding\\Projects\\C#\\Mvc\\MyOnlineCV\\wwwroot\\js\\TaxCalculator.js",
               "RelativeToolTip": "wwwroot\\js\\TaxCalculator.js",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAqwA8AAAAAAAAA",
+              "ViewState": "AQIAAAEAAAAAAAAAAAAiwA8AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
               "WhenOpened": "2024-10-12T22:09:49.801Z"
             }
